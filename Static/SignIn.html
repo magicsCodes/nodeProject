@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="./scripts/SignIn.js"></script>
+</head>
+<body>
+    <div>
+        <!--<h4> Sign In:</h4>-->
+        email:
+        <br />
+        <input type="text" id="SignEmail">
+        <br />
+        password:
+        <br />
+        <input type="password" id="SignPassword">
+        <br />
+        <br />
+        <button onclick="login()">LogIn</button>
+        <button onclick="creatNewUser()">CreatNewUser</button>
+    </div>
+    <br />
+    <br />
+    <br />
+    <div id="newUserDiv" style="display:none">
+        firstName:
+        <br />
+        <input type="text" id="SaveFirstName">
+        <br />
+        lastName:
+        <br />
+        <input type="text" id="SaveLastName">
+        <br />
+        Email:
+        <br />
+        <input type="text" id="SaveEmail">
+        <br />
+        Password:
+        <br />
+        <input type="password" id="SavePassword">
+        <br />
+        <button onclick="Save()">Save</button><br />
+    </div>
+</body>
+
+</html>
